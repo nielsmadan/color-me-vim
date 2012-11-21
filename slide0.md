@@ -1,8 +1,6 @@
 
-Slide One
-slide0.md
+Color Me Vim
+============
 
-a"what"
-
-hi NonText guifg=#FFFFFF guibg=#1C1B1A
-
+Make your own vim color scheme
+------------------------------
