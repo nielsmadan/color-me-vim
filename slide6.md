@@ -7,12 +7,14 @@ Load syntax file according to filetype from `$VIMRUNTIME/syntax/language.vim`
 
         syn keyword pythonConditional	elif else if
 
+        syn keyword markdownOrderedListMarker according
+
 2. match: match regex
 
         syn match   pythonComment	"#.*$" contains=pythonTodo,@Spell
         syn keyword pythonTodo		FIXME NOTE NOTES TODO XXX contained
 
-3. region: start reex, end regex
+3. region: start regex, end regex
 
         syn region  pythonString
               \ start=+[uU]\=\z(['"]\)+ end="\z1" skip="\\\\\|\\\z1"
