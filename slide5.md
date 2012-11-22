@@ -6,16 +6,12 @@ Determining filetype
 * file content
 * manually setting
 
-Common Options
---------------
+Configure
+---------
 
-1. Enabling filetype detection.
+* Overriding after normal filetype detection has run:
 
-    filetype (plugin indent) on
-
-2. Overriding after normal filetype detection has run:
-
-In ~/.vim/ftdetect.vim:
+In $HOME/.vim/ftdetect.vim:
 
     if exists("did_load_filetypes")
         finish
@@ -26,12 +22,12 @@ In ~/.vim/ftdetect.vim:
     augroup END
 
 
-Aside:
+>Aside:
+>
+>`au!` removes all auto-comands for the specified events and pattern in group,
+>and then adds the following command.
 
-`au!` removes all auto-comands for the specified events and pattern in group,
-and then adds the following command.
-
-3. Also possible:
+* Also possible:
 
     * Overrule all filetype checks
     * Overrule only if no filetype found

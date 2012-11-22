@@ -6,4 +6,4 @@ From open file to color
 
 2. Use the syntax file for the filetype to find syntax groups.
 
-3. Use the color scheme to and the syntax groups to apply color.
+3. Use the color scheme and the syntax groups to apply color.
