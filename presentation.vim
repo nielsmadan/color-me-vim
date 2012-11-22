@@ -42,3 +42,4 @@ nnoremap <silent> <m-z> ^"ay$:<c-r>a<CR>
 
 nnoremap <silent> <m-v> :set filetype=vim<CR>
 nnoremap <silent> <m-m> :set filetype=markdown<CR>
+nnoremap <silent> <m-p> :set filetype=python<CR>

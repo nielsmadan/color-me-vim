@@ -9,7 +9,7 @@ Define RGB colors and associated terminal colors:
         if !empty(a:guifg)
             let guifg = a:guifg
         else
-            let guifg = ['fg', 'fg']  " could also be "NONE"
+            let guifg = ['fg', 'fg']
         endif
 
         " ...
@@ -23,7 +23,13 @@ Define RGB colors and associated terminal colors:
         endif
     endfunction
 
+Call as:
+
     call s:Highlight('Keyword', s:cerise, '', 'bold', '')
+
+Instead of:
+
+    highlight Keyword guifg=#FF0033, guibg=bg, gui=bold, guisp=fg cterm=197 ctermbg=bg, cterm='none'
 
 Makes it possible to define colors as variables, and much less typing.
 
