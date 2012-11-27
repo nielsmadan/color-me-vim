@@ -1,3 +1,4 @@
+
 Things to think about
 =====================
 
@@ -19,7 +20,7 @@ Example:
 
 Compare:
 
-    hi Operator guifg=#AE81FF guibg=bg gui='none'
+    hi Operator guifg=#AE81FF guibg=bg gui='none
 
 Make exceptional (exception handling, import, meta programming) things pop out.
 
@@ -38,6 +39,6 @@ Example:
 
 Compare:
 
-    hi Operator guifg=#AE81FF guibg=bg gui='none'
+    hi pythonException guifg=#FF0033 guibg=bg gui='none'
 
 ##Question to you: What do you like / dislike about a color scheme?

@@ -1,3 +1,4 @@
+
 Solution: Write some vimscript!
 ===============================
 

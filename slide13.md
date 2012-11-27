@@ -1,18 +1,19 @@
+
 Quick Survey
 ============
 
 * dark / light color scheme?
 
-Result:
+Result: ++dark
 
 * high / low contrast?
 
-Result:
+Result: +low
 
 * vim / gvim?
 
-Result:
+Result: ++vim
 
 * dark / light comments
 
-Result:
+Result: even

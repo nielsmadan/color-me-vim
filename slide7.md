@@ -1,3 +1,4 @@
+
 Defining a color scheme
 =======================
 
